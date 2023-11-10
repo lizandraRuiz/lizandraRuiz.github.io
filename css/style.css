@@ -4,4 +4,12 @@
     background-attachment: fixed;
     background-size: 100% 100%;
   } */
+
+  body{
+    background: #0f172a;
+  }
+
+  img{
+    max-width: 500px;
+  }
   
