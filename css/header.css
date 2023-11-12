@@ -1,0 +1,25 @@
+.header {
+  padding: 20px 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 100fr;
+  justify-content: space-between;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.header_menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  color: #000000;
+  background: #40ffd1;
+  justify-items: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 15px;
+}
+
+img{
+    max-width: 50px;
+}
