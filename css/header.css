@@ -84,8 +84,8 @@
   .header_menu_div {
     position: fixed;
     top: -100%;
-    right: 4%;
-    width: 160px;
+    right: 2.125rem;
+    width: 10rem;
     height: 9.375rem;
     background: #40ffd1;
     display: flex;
@@ -103,8 +103,8 @@
   }
 
   .header_menu_div.active {
-    top: 4%;
-    right: 4%;
+    top: 1.875rem;
+    right: 2.125rem;
   }
 }
 
