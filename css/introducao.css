@@ -75,7 +75,7 @@
     font-size: 40px;
   }
   .scroll_down {
-    bottom: 50px;
+    bottom: 150px;
   }
 }
 
@@ -89,5 +89,6 @@
 } */
 
 #ioio {
+    height: 3000px;
   background: #40ffd1;
 }
