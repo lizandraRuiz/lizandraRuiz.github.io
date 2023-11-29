@@ -78,6 +78,10 @@
 
 @media(max-width: 300px){
     .introducao h1 {
-        font-size: 30px;
+        font-size: 10px;
       }
+}
+
+#ioio{
+    background: #40ffd1;
 }
