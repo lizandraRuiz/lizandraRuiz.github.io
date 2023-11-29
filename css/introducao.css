@@ -64,7 +64,14 @@
     }
 }
 
-.ioio{
-    height: 1220px;
-    background: #40ffd1;
+@media(max-width: 800px){
+    .introducao h1 {
+        font-size: 80px;
+      }
+}
+
+@media(max-width: 400px){
+    .introducao h1 {
+        font-size: 40px;
+      }
 }
