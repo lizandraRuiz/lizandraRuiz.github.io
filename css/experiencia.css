@@ -1,0 +1,42 @@
+.experiencia{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    color: white;
+}
+
+.subtitulo{
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+}
+
+.empresa{
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 2px solid #40ffd1;
+    position: relative;
+}
+
+.empresa_ano{
+    position: absolute;
+    top: 20px;
+    left: -150px;
+    font-size: 0.875rem;
+}
+
+.empresa_titulo{
+    font-size: 1.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
