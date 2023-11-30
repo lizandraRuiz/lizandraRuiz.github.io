@@ -1,42 +1,91 @@
-.experiencia{
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
-    color: white;
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  color: white;
 }
 
-.subtitulo{
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 4ch;
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
 }
 
-.empresa{
-    grid-column: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    border: 2px solid #40ffd1;
-    position: relative;
+.empresa {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 2px solid #40ffd1;
+  position: relative;
 }
 
-.empresa_ano{
-    position: absolute;
-    top: 20px;
-    left: -150px;
-    font-size: 0.875rem;
+.empresa_ano {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  font-size: 0.875rem;
+  width: 230px;
+  text-align: center;
 }
 
-.empresa_titulo{
-    font-size: 1.125rem;
-    line-height: 1.1;
-    font-weight: bold;
+.empresa_titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
 }
 
+.empresa_texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.empresa_habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.empresa_habilidades li {
+  font-size: 0.785rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  border: 2px solid #40ffd1;
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+
+  /* .empresa_habilidades{
+    grid-row: 2 / 3;
+  } */
+  .empresa_ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: center;
+    /* grid-column: 2; */
+    /* grid-row: 2; */
+  }
+  
+}
