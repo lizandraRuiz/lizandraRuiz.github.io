@@ -9,11 +9,13 @@
   display: grid;
   grid-template-columns: 3.125rem 1fr;
   gap: 1.25rem;
+  z-index: 1;
+  position: relative;
 }
 
 .header_menu {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   padding-right: 1rem;
   background: #40ffd1;
   align-items: center;

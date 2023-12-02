@@ -16,7 +16,7 @@
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 
 .empresa {
@@ -77,6 +77,8 @@
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial;
+    margin-top: auto;
+
   }
 
   .empresa_ano {
@@ -89,11 +91,11 @@
 }
 
 @media (max-width: 400px) {
-  .empresa{
+  .empresa {
     grid-template-columns: 1fr;
   }
 }
 
-.oioi{
+.oioi {
   background: wheat;
 }
