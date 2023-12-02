@@ -23,8 +23,8 @@
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* gap: 10px 20px; */
-  /* padding: 20px; */
+  gap: 10px 20px;
+  padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
   border: 2px solid #40ffd1;
@@ -92,4 +92,8 @@
   .empresa{
     grid-template-columns: 1fr;
   }
+}
+
+.oioi{
+  background: wheat;
 }
