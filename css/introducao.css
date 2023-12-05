@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 75rem;
+  max-width: var(--rem-1200px);
   min-height: 100vh;
-  margin: -5.673125rem auto 0 auto;
+  margin: var(--rem--90_77px) auto 0 auto;
   color: var(--cor-primaria);
   position: relative;
 }
@@ -14,17 +14,17 @@
 }
 
 .introducao h1 {
-  font-size: 7.5rem;
+  font-size: var(--rem-120px);
 }
 
 .scroll_down {
-  height: 50px;
-  width: 30px;
-  border: 2px solid var(--cor-primaria);
+  height: var(--rem-50px);
+  width: var(--rem-30px);
+  border: var(--rem-2px) solid var(--cor-primaria);
   position: absolute;
   left: 45%;
-  bottom: 20px;
-  border-radius: 50px;
+  bottom: var(--rem-20px);
+  border-radius: var(--rem-50px);
   cursor: pointer;
 }
 
@@ -34,9 +34,9 @@
   position: absolute;
   top: 20%;
   left: 50%;
-  border: 2px solid var(--cor-primaria);
-  height: 10px;
-  width: 10px;
+  border: var(--rem-2px) solid var(--cor-primaria);
+  height: var(--rem-10px);
+  width: var(--rem-10px);
   transform: translate(-50%, -50%) rotate(45deg);
   border-top: transparent;
   border-left: transparent;
@@ -66,15 +66,15 @@
 
 @media (max-width: 800px) {
   .introducao h1 {
-    font-size: 80px;
+    font-size: var(--rem-80px);
   }
 }
 
 @media (max-width: 400px) {
   .introducao h1 {
-    font-size: 40px;
+    font-size: var(--rem-40px);
   }
   .scroll_down {
-    bottom: 150px;
+    bottom: var(--rem-150px);
   }
 }

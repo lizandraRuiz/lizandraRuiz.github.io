@@ -1,17 +1,17 @@
 .experiencia {
-  max-width: 1200px;
+  max-width: var(--rem-1200px);
   min-height: 90vh;
-  padding: 40px 20px;
+  padding: var(--rem-40px) var(--rem-20px);
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 100px;
+  gap: var(--rem-100px);
   color: var(--cor-branca);
   align-items: center;
 }
 
 .subtitulo {
-  font-size: 8rem;
+  font-size: var(--rem-128px);
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
@@ -22,47 +22,47 @@
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px 20px;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  border: 2px solid var(--cor-primaria);
+  gap: var(--rem-10px) var(--rem-20px);
+  padding: var(--rem-20px);
+  margin-bottom: var(--rem-20px);
+  border-radius: var(--rem-4px);
+  border: var(--rem-2px) solid var(--cor-primaria);
   position: relative;
 }
 
 .empresa_ano {
   position: absolute;
-  top: 20px;
-  left: -150px;
-  font-size: 0.875rem;
-  width: 230px;
+  top: var(--rem-20px);
+  left: var(--rem--150px);
+  font-size: var(--rem-14px);
+  width: var(--rem-230px);
   text-align: center;
 }
 
 .empresa_titulo {
-  font-size: 1.125rem;
+  font-size: var(--rem-18px);
   line-height: 1.1;
   font-weight: bold;
 }
 
 .empresa_texto {
-  font-size: 0.875rem;
+  font-size: var(--rem-14px);
   line-height: 1.4;
 }
 
 .empresa_habilidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: var(--rem-10px);
   align-content: start;
 }
 
 .empresa_habilidades li {
-  font-size: 0.785rem;
+  font-size: var(--rem-12px);
   line-height: 1.4;
-  border-radius: 4px;
-  border: 2px solid var(--cor-primaria);
-  padding: 5px 10px;
+  border-radius: var(--rem-4px);
+  border: var(--rem-2px) solid var(--cor-primaria);
+  padding: var(--rem-5px) var(--rem-10px);
 }
 
 @media (max-width: 800px) {
@@ -73,17 +73,18 @@
   }
 
   .subtitulo {
-    font-size: 3rem;
+    font-size: var(--rem-48px);
     text-transform: capitalize;
     max-width: initial;
     margin-top: auto;
+    margin-bottom: var(--rem-20px);
 
   }
 
   .empresa_ano {
     width: initial;
-    bottom: 10px;
-    right: 10px;
+    bottom: var(--rem-10px);
+    right: var(--rem-10px);
     top: initial;
     left: initial;
   }

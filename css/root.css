@@ -4,5 +4,36 @@
     --cor-primaria: #40ffd1;
     --cor-contatos: #a3a3a3;
 
-    --1200px: 75rem;
+    --rem-2px: 0.125rem;
+    --rem-3px: 0.1875rem;
+    --rem-4px: 0.25rem;
+    --rem-5px: 0.3125rem;
+    --rem-10px: 0.625rem;
+    --rem-12px: 0.75rem;
+    --rem-14px: 0.875rem;
+    --rem-15px: 0.9375rem;
+    --rem-16px: 1rem;
+    --rem-18px: 1.125rem;
+    --rem-20px: 1.25rem;
+    --rem-24px: 1.5rem;
+    --rem-25px: 1.5625rem;
+    --rem-30px: 1.875rem;
+    --rem-34px: 2.125rem;
+    --rem-40px: 2.5rem;
+    --rem-48px: 3rem;
+    --rem-50px: 3.125rem;
+    --rem-60px: 3.75rem;
+    --rem-80px: 5rem;
+    --rem-100px: 6.25rem;
+    --rem-120px: 7.5rem;
+    --rem-128px: 8rem;
+    --rem-150px: 9.375rem;
+    --rem-160px: 10rem;
+    --rem-230px: 14.375rem;
+    --rem-1200px: 75rem;
+    
+    --rem--7px: -0.4375rem;
+    --rem--90_77px: -5.673125rem;
+    --rem--150px: -9.375rem;
+
 }

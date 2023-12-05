@@ -1,14 +1,14 @@
 .logo {
-  max-width: 3.125rem;
+  max-width: var(--rem-50px);
 }
 
 .header {
-  max-width: 75rem;
+  max-width: var(--rem-1200px);
   margin: 0 auto;
-  padding: 1.25rem 1.25rem;
+  padding: var(--rem-18px) var(--rem-18px);
   display: grid;
-  grid-template-columns: 3.125rem 1fr;
-  gap: 1.25rem;
+  grid-template-columns: var(--rem-50px) 1fr;
+  gap: var(--rem-20px);
   z-index: 1;
   position: relative;
 }
@@ -16,26 +16,26 @@
 .header_menu {
   display: flex;
   justify-content: flex-end;
-  padding-right: 1rem;
+  padding-right: var(--rem-16px);
   background: var(--cor-primaria);
   align-items: center;
-  height: 3.125rem;
-  border-radius: 0.9375rem;
+  height: var(--rem-50px);
+  border-radius: var(--rem-15px);
 }
 
 .header_menu_div {
   display: flex;
   justify-content: right;
-  padding-right: 1rem;
-  gap: 0.625rem;
+  padding-right: var(--rem-16px);
+  gap: var(--rem-10px);
   background: var(--cor-primaria);
   align-items: center;
-  height: 3.125rem;
-  border-radius: 0.9375rem;
+  height: var(--rem-50px);
+  border-radius: var(--rem-15px);
 }
 
 .header_menu_div a {
-  padding: 20px;
+  padding: var(--rem-20px);
 }
 
 .header_menu_hamburger {
@@ -43,7 +43,7 @@
   display: none;
   border: none;
   background: none;
-  border-top: 0.1875rem solid var(--cor-primaria);
+  border-top: var(--rem-3px) solid var(--cor-primaria);
   cursor: pointer;
 }
 
@@ -51,10 +51,10 @@
 .header_menu_hamburger::after {
   content: "";
   display: block;
-  width: 1.875rem;
-  height: 0.1875rem;
+  width: var(--rem-30px);
+  height: var(--rem-3px);
   background: var(--cor-primaria);
-  margin-top: 0.3125rem;
+  margin-top: var(--rem-5px);
   position: relative;
   transition: 0.3s;
 }
@@ -80,32 +80,32 @@
   .header_nav.active .header_menu_hamburger::after {
     transform: rotate(-135deg);
     background: var(--cor-preta);
-    top: -0.4375rem;
+    top: var(--rem--7px);
   }
 
   .header_menu_div {
     position: fixed;
     top: -100%;
-    right: 2.125rem;
-    width: 10rem;
-    height: 9.375rem;
+    right: var(--rem-34px);
+    width: var(--rem-160px);
+    height: var(--rem-150px);
     background: var(--cor-primaria);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border-radius: 0.625rem;
+    border-radius: var(--rem-10px);
     transition: all 0.5s ease;
   }
 
   .header_menu_div a {
     display: block;
-    margin: 0.75rem 0;
-    padding: 0 1.5625rem;
+    margin: var(--rem-12px) 0;
+    padding: 0 var(--rem-25px);
     transition: all 0.5s ease;
   }
 
   .header_menu_div.active {
-    top: 1.875rem;
-    right: 2.125rem;
+    top: var(--rem-30px);
+    right: var(--rem-34px);
   }
 }
