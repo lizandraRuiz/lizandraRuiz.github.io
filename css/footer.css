@@ -1,0 +1,15 @@
+:root{
+    --contatos: #a3a3a3
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+
+footer a:hover{
+    --contatos: #40ffd1;
+}

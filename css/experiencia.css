@@ -16,7 +16,6 @@
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
-  /* margin-top: auto; */
 }
 
 .empresa {
@@ -94,8 +93,4 @@
   .empresa {
     grid-template-columns: 1fr;
   }
-}
-
-.oioi {
-  background: wheat;
 }
