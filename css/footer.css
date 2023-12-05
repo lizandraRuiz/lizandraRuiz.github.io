@@ -13,3 +13,7 @@
 .contato a:hover{
     --contatos: #40ffd1;
 }
+
+.ioio{
+    background: rgba(255, 0, 0, 0.5);
+}
