@@ -3,17 +3,32 @@
 }
 
 .contato{
-    background: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    gap: 20px;
 }
 
 .contato a:hover{
     --contatos: #40ffd1;
 }
 
-.ioio{
-    background: rgba(255, 0, 0, 0.5);
+.contato a{
+    color: #a3a3a3;
 }
+
+
+/* .experiencia, .formacao,.introducao{
+    display: none;
+} */
+
+footer span{
+    color: #a3a3a3;
+}
+
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

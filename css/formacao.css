@@ -1,6 +1,6 @@
 .formacao {
   max-width: 1200px;
-  height: 90vh;
+  min-height: 90vh;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
@@ -8,7 +8,6 @@
   gap: 100px;
   color: white;
   align-items: center;
-  margin-bottom: 0;
 }
 
 .formacao_texto {
@@ -51,6 +50,10 @@
   font-size: 1.125rem;
 }
 
+.formacao .subtitulo{
+    max-width: 5ch;
+}
+
 @media (max-width: 800px) {
   .formacao {
     grid-template-columns: 1fr;
@@ -58,14 +61,15 @@
     gap: 40px;
     text-align: center;
   }
+  .formacao .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+    margin-top: auto;
+  }
+  .faculdade_lista{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
-/* .experiencia{
-    display: none;
-}
-.formacao{
-    display: none;
-}
-.introducao{
-    display: none;
-} */

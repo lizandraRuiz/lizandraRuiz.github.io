@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   max-width: 75rem;
-  height: 100vh;
+  min-height: 100vh;
   margin: -5.673125rem auto 0 auto;
   color: #40ffd1;
   position: relative;
