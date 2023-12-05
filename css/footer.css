@@ -3,21 +3,15 @@
 }
 
 footer{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     height: 20vh;
+    min-height: 200px;
 }
 
 footer a:hover{
     --contatos: #40ffd1;
-}
-
-.oi{
-    background: wheat;
-}
-
-.oioi{
-    display: block;
 }
