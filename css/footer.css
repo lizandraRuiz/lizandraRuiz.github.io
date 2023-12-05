@@ -2,20 +2,14 @@
     --contatos: #a3a3a3
 }
 
-footer{
-    max-width: 1200px;
-    height: 90vh;
-    padding: 40px 20px;
-    margin: 0 auto;
-
-    position: relative;
+.contato{
+    background: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    min-height: 200px;
+    height: 100vh;
 }
 
-footer a:hover{
+.contato a:hover{
     --contatos: #40ffd1;
 }
