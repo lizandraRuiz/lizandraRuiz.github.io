@@ -1,7 +1,3 @@
-:root{
-    --contatos: #a3a3a3
-}
-
 .contato{
     display: flex;
     justify-content: center;
@@ -10,20 +6,15 @@
 }
 
 .contato a:hover{
-    --contatos: #40ffd1;
+    --cor-contatos: var(--cor-primaria);
 }
 
 .contato a{
-    color: #a3a3a3;
+    color: var(--cor-contatos);
 }
 
-
-/* .experiencia, .formacao,.introducao{
-    display: none;
-} */
-
 footer span{
-    color: #a3a3a3;
+    color: var(--cor-contatos);
 }
 
 .gmail{
