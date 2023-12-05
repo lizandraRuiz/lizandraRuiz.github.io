@@ -3,12 +3,16 @@
 }
 
 footer{
+    max-width: 1200px;
+    height: 90vh;
+    padding: 40px 20px;
+    margin: 0 auto;
+
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 20vh;
     min-height: 200px;
 }
 
