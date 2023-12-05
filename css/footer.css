@@ -6,10 +6,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
     gap: 20px;
+    margin-top: 10px;
 }
 
 footer a:hover{
     --contatos: #40ffd1;
+}
+
+.oi{
+    background: wheat;
 }
