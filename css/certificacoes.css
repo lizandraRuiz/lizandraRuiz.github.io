@@ -1,6 +1,6 @@
 .certifica{
   text-align: center;
-  border: 2px solid var(--cor-primaria);
+  border: var(--rem-2px) solid var(--cor-primaria);
   border-radius: var(--rem-4px);
   padding: var(--rem-20px);
 }
@@ -8,7 +8,7 @@
 .certifica_texto {
   font-size: var(--rem-24px);
   line-height: 1.33;
-  margin-bottom: 10px;
+  margin-bottom: var(--rem-10px);
 }
 
 .certifica_texto,
