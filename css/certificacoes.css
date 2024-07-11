@@ -1,11 +1,20 @@
 .certifica{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   text-align: center;
   border: var(--rem-2px) solid var(--cor-primaria);
   border-radius: var(--rem-4px);
   padding: var(--rem-20px);
 }
 
+.certifica a {
+  display: block;
+}
+
 .certifica_texto {
+  flex-basis: 100%;
   font-size: var(--rem-24px);
   line-height: 1.33;
   margin-bottom: var(--rem-10px);
